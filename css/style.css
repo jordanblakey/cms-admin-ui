@@ -1,79 +1,104 @@
-
 /* NAVBAR COLORS */
 
 .navbar-default {
-  background-color: #db3d25;
-  border-color: #9c1c07;
+    border-color: #9c1c07;
+    background-color: #db3d25;
 }
+
 .navbar-default .navbar-brand {
-  color: #ecf0f1;
+    color: #ecf0f1;
 }
+
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #ffe6dd;
+    color: #ffe6dd;
 }
+
 .navbar-default .navbar-text {
-  color: #ecf0f1;
+    color: #ecf0f1;
 }
-.navbar-default .navbar-nav > li > a {
-  color: #ecf0f1;
+
+.navbar-default .navbar-nav>li>a {
+    color: #ecf0f1;
 }
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-  color: #ffe6dd;
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+    color: #ffe6dd;
 }
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
-  color: #ffe6dd;
-  background-color: #9c1c07;
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    background-color: #9c1c07;
+    color: #ffe6dd;
 }
-.navbar-default .navbar-nav > .open > a,
-.navbar-default .navbar-nav > .open > a:hover,
-.navbar-default .navbar-nav > .open > a:focus {
-  color: #ffe6dd;
-  background-color: #9c1c07;
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>.open>a:focus {
+    background-color: #9c1c07;
+    color: #ffe6dd;
 }
+
 .navbar-default .navbar-toggle {
-  border-color: #9c1c07;
+    border-color: #9c1c07;
 }
+
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #9c1c07;
+    background-color: #9c1c07;
 }
+
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #ecf0f1;
+    background-color: #ecf0f1;
 }
+
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-  border-color: #ecf0f1;
+    border-color: #ecf0f1;
 }
+
 .navbar-default .navbar-link {
-  color: #ecf0f1;
+    color: #ecf0f1;
 }
+
 .navbar-default .navbar-link:hover {
-  color: #ffe6dd;
+    color: #ffe6dd;
 }
 
 @media (max-width: 767px) {
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #ecf0f1;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #ffe6dd;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #ffe6dd;
-    background-color: #9c1c07;
-  }
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+        color: #ecf0f1;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus {
+        color: #ffe6dd;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu>.active>a,
+    .navbar-default .navbar-nav .open .dropdown-menu>.active>a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu>.active>a:focus {
+        background-color: #9c1c07;
+        color: #ffe6dd;
+    }
 }
+
 
 /* CUSTOM */
 
-body, p, h1, h2, h3, h4, h5, h6, li, form, input, label, table {
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+form,
+input,
+label,
+table {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -82,8 +107,8 @@ body {
 }
 
 .main-color-bg {
-    background-color: #db3d25 !important;
     border-color: #9c1c07 !important;
+    background-color: #db3d25 !important;
     color: #fff !important;
 }
 
@@ -93,54 +118,78 @@ body {
     line-height: 12px;
 }
 
+.copyright {
+    margin: 0;
+}
+
+
 /* NAVBAR */
 
 .navbar {
-    min-height:33px !important;
-    margin-bottom:0;
-    border-radius:0;
+    margin-bottom: 0;
+    border-radius: 0;
+    min-height: 33px !important;
 }
 
-.navbar-nav > li > a, .navbar-brand{
-    padding-bottom: 0 !important;
+.navbar-nav>li>a,
+.navbar-brand {
     padding-top: 0 !important;
+    padding-bottom: 0 !important;
     height: 34px;
     line-height: 34px;
 }
 
 @media (max-width: 767px) {
-    .navbar-nav > li > a {
+    .navbar-nav>li>a {
         line-height: 34px;
     }
     .navbar-brand {
         line-height: 52px;
     }
-
 }
+
 
 /* PROGRESS BARS */
-.progress-bar{
+
+.progress-bar {
     background: #333;
-    color:white;
+    color: white;
 }
 
-.dash-box{
+.dash-box {
     text-align: center;
 }
 
+#login {}
+
+
 /* HEADER */
-#header{
-    background: #333;
-    color: #fff;
-    padding-bottom: 10px;
+
+#header {
     margin-bottom: 15px;
+    background: #333;
+    padding-bottom: 10px;
+    color: #fff;
 }
 
 #header .create {
     padding-top: 25px;
 }
 
+
+/* FOOTER */
+
+#footer {
+    margin-top: 30px;
+    background: #333;
+    padding: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+
 /* BREADCRUMB */
+
 .breadcrumb {
     background: #ccc;
     color: #333;
@@ -150,20 +199,21 @@ body {
     color: #333;
 }
 
+
 /* BREAKPOINTS */
 
 @media (max-width: 767px) {
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #ecf0f1;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #f9bc82;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #f9bc82;
-    background-color: #9c1c07;
-  }
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+        color: #ecf0f1;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus {
+        color: #f9bc82;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu>.active>a,
+    .navbar-default .navbar-nav .open .dropdown-menu>.active>a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu>.active>a:focus {
+        background-color: #9c1c07;
+        color: #f9bc82;
+    }
 }
